@@ -16,6 +16,7 @@ header {
     flex-direction: column;
     justify-content: center;
 }
+
 header .socials li + li { margin-left: 0.5em; }
 header .socials li a { text-decoration: none; }
 header .socials li a svg {
