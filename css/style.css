@@ -17,6 +17,10 @@ header {
     justify-content: center;
 }
 
+header .logo svg {
+    width: 7.5em;
+}
+
 header .socials li + li { margin-left: 0.5em; }
 header .socials li a { text-decoration: none; }
 header .socials li a svg {
