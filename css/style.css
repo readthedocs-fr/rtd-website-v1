@@ -20,7 +20,7 @@ header .socials li + li { margin-left: 0.5em; }
 header .socials li a { text-decoration: none; }
 header .socials li a svg {
     fill: #3d3d3d;
-    width: 17px;
+    width: 1.25em;
     transition: all 0.3s ease;
 }
 header .socials li:hover a svg { fill: #fff; }
