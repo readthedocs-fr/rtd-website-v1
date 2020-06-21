@@ -36,6 +36,24 @@ header .socials li:active a svg { fill: #fff; }
     text-align: center;
 }
 
+.web-content div.columns {
+    display:flex;
+    flex-direction: column;
+}
+
+.web-content div.columns p {
+    margin-bottom: 1em;
+}
+
+.web-content div.columns div.rows {
+    display:flex;
+    flex-direction: row;
+}
+
+iframe {
+    border:none;
+}
+
 @media screen and (min-width: 1024px) {
     body { display: flex; }
 
@@ -49,5 +67,9 @@ header .socials li:active a svg { fill: #fff; }
         height: inherit;
         flex: 1;
         text-align: initial;
+    }
+
+    header .socials li a svg {
+        width:1.50em;
     }
 }
