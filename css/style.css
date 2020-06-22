@@ -1,75 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
 
-* { font-family: 'Noto Sans KR', sans-serif; }
-html, body { width: 100vw; height: 100vh; }
-
-header,
-header .socials,
-.web-content { display: flex; }
-
-header {
-    background-color: #111;
-
-    align-items: center;
-    justify-content: center;
+* { 
+    font-family: 'Noto Sans KR', sans-serif; 
 }
 
-header .logo svg {
-    width: 7.5em;
+html, body {
+    width: 100vw; 
+    height: 100vh; 
 }
 
-header .socials li + li { margin-left: 0.5em; }
-header .socials li a { text-decoration: none; }
-header .socials li a svg {
-    fill: #3d3d3d;
-    width: 1.25em;
-    transition: all 0.3s ease;
-}
-header .socials li:hover a svg,
-header .socials li:active a svg { fill: #fff; }
-
-.web-content {
-    align-items: center;
-    justify-content: center;
-
-    padding: 2em;
-    text-align: center;
+#fullpage div.section svg {
+    margin-left:1em;
+    width:30rem;
 }
 
-.web-content div.columns {
-    display:flex;
-    flex-direction: column;
+#discord svg {
+    fill: #7289da;
 }
 
-.web-content div.columns p {
-    margin-bottom: 1em;
+#github svg {
+    fill: #eee;
 }
 
-.web-content div.columns div.rows {
-    display:flex;
+#twitch svg {
+    fill: #eee;
+}
+
+#youtube svg {
+    fill: #f00;
+}
+
+.white {
+    color:white;
+}
+
+.mw50 {
+    max-width:50vw;
+}
+
+div.rows {
+    display: flex;
     flex-direction: row;
 }
 
-iframe {
-    border:none;
+div.colums {
+    display: flex;
+    flex-direction: column;
 }
 
-@media screen and (min-width: 1024px) {
-    body { display: flex; }
-
-    header {
-        height: inherit; 
-        padding: 0 2rem;
-        flex-direction: column;
-    }
-
-    .web-content { 
-        height: inherit;
-        flex: 1;
-        text-align: initial;
-    }
-
-    header .socials li a svg {
-        width:1.50em;
-    }
+ul.list {
+    list-style-type: disc; 
+    list-style-position: inside; 
 }
